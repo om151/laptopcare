@@ -2,6 +2,7 @@
 /* NAVIGATION BAR */
 
 nav {
+
   display: flex;
   padding-top: 10px;
   /* background-color: rgb(32, 31, 31); */
@@ -12,8 +13,9 @@ nav {
   height: 50px;
   width: 50px;
   padding: 8px;
-  padding-left: 30px;
+  margin-left: 30px;
 /* border-radius: 20px; */
+clip-path: circle(38.5%);
 }
 
 .navbar ul li a {
@@ -59,7 +61,6 @@ nav {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    padding: 120px 0px;
 }
 
 .section1 h1 {
@@ -95,6 +96,8 @@ nav {
 .section1 div {
     padding-bottom: 15px;
 }
+
+
 
 .section1 .bg {
     position: absolute;
@@ -133,6 +136,7 @@ nav {
   cursor: pointer;
   background-color: #16d1b8;
   color: black;
+  box-shadow: 0px 0px 5px #16d1b8;
 
 }
 
@@ -341,3 +345,41 @@ text-shadow: 0px 0px 10px black, 0px 0px 10px black;
         cursor: pointer;
       }
      
+
+
+
+
+
+
+
+      .rating {
+        
+        width: 208px;
+        height: 40px;
+        /* margin: 0 auto; */
+        padding: 40px 50px;
+        /* border: 1px solid #ccc;
+        background: #f9f9f9; */
+   }
+    .rating label {
+        float: right;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+   }
+    .rating label:not(:first-of-type) {
+        padding-right: 2px;
+   }
+    .rating label:before {
+        content: "\2605";
+        font-size: 42px;
+        color: #ccc;
+        line-height: 1;
+   }
+    .rating input {
+        display: none;
+   }
+    .rating input:checked ~ label:before, .rating:not(:checked) > label:hover:before, .rating:not(:checked) > label:hover ~ label:before {
+        color: #f9df4a;
+   }
