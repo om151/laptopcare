@@ -40,9 +40,10 @@ nav{
 .section1 .bg{
     background-size: 110% 100%;
     width: 100%;
-    height: 450px;
+    height: 550px;
 
 }
+
 
 .section1 pre{
     margin: 0px;
@@ -76,6 +77,79 @@ margin: 0px 3px;
 
 }
 
+
+
+
+/* services */
+
+.section2 .bg{
+        background-size: 110% 100%;
+        width: 100%;
+        height: 800px;
+}
+
+#services{
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.section2 h1{
+    padding-top: 10px;
+    font-size: 1.5rem;
+}
+
+#services .box {
+    
+        padding: 2px;
+        margin: 1px 0px;
+        border-radius: 28px;
+        margin-bottom: 20px;
+      }
+
+
+       #services .box img {
+        
+        height: 50px; 
+        display: block;
+      }
+
+.h-secondary {
+        font-family: "Bree Serif", serif;
+        font-size: 0.8rem;
+        padding: 5px;
+      }
+
+      .h-primary{
+        margin: 5px;
+      }
+
+ #services .box p {
+    font-size: 0.45rem;
+        font-family: "Bree Serif", serif;
+      }
+
+
+
+/* contact us */
+
+.contact-us h1{
+    font-size: 2rem;
+}
+
+
+.contact-us h3{
+    font-size: 1rem;
+}
+
+.feedback-form{
+    margin: 0px 10px;
+}
+
+
+.rating{
+  align-items: center;
+}
 
 }
 
@@ -159,6 +233,70 @@ margin: 0px 3px;
 
 }
 
+
+
+
+/* services */
+
+
+.section2 .bg{
+        background-size: 110% 100%;
+        width: 100%;
+        height: 700px;
+}
+
+#services{
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+
+.section2 h1{
+    padding-top: 15px;
+    font-size: 2rem;
+}
+
+#services .box {
+    
+        padding: 5px;
+        margin: 1px 6px;
+        border-radius: 28px;
+        /* margin-bottom: 20px; */
+      }
+
+
+       #services .box img {
+        
+        height: 80px; 
+        display: block;
+      }
+
+.h-secondary {
+        font-family: "Bree Serif", serif;
+        font-size: 1.1rem;
+        padding: 5px;
+      }
+
+      .h-primary{
+        margin: 8px;
+      }
+
+ #services .box p {
+    font-size: 0.7rem;
+        font-family: "Bree Serif", serif;
+      }
+
+
+      /* contact */
+
+      .contact-us h1{
+        font-size: 2.5rem;
+    }
+    
+    
+    .contact-us h3{
+        font-size: 1.2rem;
+    }
 
 }
 
@@ -270,6 +408,65 @@ padding: 1px 4px;
 margin: 0px 3px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* services */
+
+.section2 .bg{
+        background-size: 110% 100%;
+        width: 100%;
+        height: 800px;
+}
+
+
+
+
+.section2 h1{
+    padding-top: 25px;
+    font-size: 2.7rem;
+}
+
+#services .box {
+    
+        padding: 10px;
+        margin: 1px 20px;
+        border-radius: 28px;
+        margin-bottom: 20px;
+      }
+
+
+       #services .box img {
+        
+        height: 120px; 
+    
+      }
+
+.h-secondary {
+        font-family: "Bree Serif", serif;
+        font-size: 1.5rem;
+        padding: 5px;
+      }
+
+      .h-primary{
+        margin: 5px;
+      }
+
+ #services .box p {
+    font-size: 0.8rem;
+        font-family: "Bree Serif", serif;
+      }
+
 
 
 } 
