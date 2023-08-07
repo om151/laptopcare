@@ -104,6 +104,18 @@ margin: 0px 3px;
   font-size: 6px;
 }
 
+    .first-ele p::before{
+    top: 1.7rem;
+    left: 1.8rem;
+    font-size: 7px;
+}
+
+.first-ele p::after{
+    bottom:14.5rem ;
+    right:3.2rem ;
+    font-size: 7px;
+}
+
 .second-ele img{
     height: 40px;
     width: 40px;
