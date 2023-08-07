@@ -213,6 +213,8 @@ flex-direction: column;
   padding: 50px 20px;
   margin: 0px 20px;
 }
+
+.first-ele p::before{
   content: "\f10d";
   position: absolute;
   top: 4rem;
