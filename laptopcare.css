@@ -213,11 +213,10 @@ flex-direction: column;
   padding: 50px 20px;
   margin: 0px 20px;
 }
-.first-ele p::before{
   content: "\f10d";
   position: absolute;
-  top: 60px;
-  left: 60px;
+  top: 4rem;
+  left: 4rem;
   font-size: 30px;
   color: #ccc;
   font-family: "Font Awesome 6 Free";
@@ -226,9 +225,9 @@ flex-direction: column;
 .first-ele p::after{
   content: "\f10e";
   position: absolute;
-  bottom: 410px;
+  bottom: 26rem;
 
-  right: 810px;
+  right: 4.5rem;
   /* left: 10px; */
   
   font-size: 30px;
