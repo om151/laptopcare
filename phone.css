@@ -579,15 +579,15 @@ margin: 0px 3px;
   font-size: 15px;
     padding:  30px 15px;
 }
-     .first-ele p::before{
-    top: 2.5rem;
-    left: 3.5rem;
+   .first-ele p::before{
+    top: 3rem;
+    left: 4.5rem;
     font-size: 25px;
 }
 
 .first-ele p::after{
-    bottom:27.5rem ;
-    right:9rem ;
+    bottom:24rem ;
+    right:5rem ;
     font-size: 25px;
 }
 
