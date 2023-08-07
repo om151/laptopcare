@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Work+Sans:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lisu+Bosa&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Dai+Banna+SIL:wght@300&display=swap');
+
 
 @media (min-width:320px) and ( max-width:480px) {
 
@@ -103,8 +101,7 @@ margin: 0px 3px;
   margin: 0px ;
   font-size: 6px;
 }
-
-    .first-ele p::before{
+.first-ele p::before{
     top: 1.7rem;
     left: 1.8rem;
     font-size: 7px;
@@ -316,18 +313,6 @@ nav{
     padding-right: 40px;
 }
 
-    .first-ele p::before{
-    top: 2.5rem;
-    left: 4.2rem;
-    font-size: 15px;
-}
-
-.first-ele p::after{
-    bottom:22.5rem ;
-    right:4rem ;
-    font-size: 15px;
-}
-
 .home-contact{
     padding-left: 22px;
 }
@@ -361,6 +346,19 @@ margin: 0px 3px;
   margin: 0px px;
   font-size: 10px;
 }
+
+.first-ele p::before{
+    top: 2.5rem;
+    left: 4.2rem;
+    font-size: 15px;
+}
+
+.first-ele p::after{
+    bottom:22.5rem ;
+    right:4rem ;
+    font-size: 15px;
+}
+
 
 .second-ele img{
     height: 40px;
@@ -603,7 +601,14 @@ margin: 0px 3px;
   font-size: 15px;
     padding:  30px 15px;
 }
-   .first-ele p::before{
+
+.second-ele img{
+    height: 55px;
+    width: 55px;
+    margin-left: 100px;
+}
+
+.first-ele p::before{
     top: 3rem;
     left: 4.5rem;
     font-size: 25px;
@@ -614,13 +619,6 @@ margin: 0px 3px;
     right:5rem ;
     font-size: 25px;
 }
-
-.second-ele img{
-    height: 55px;
-    width: 55px;
-    margin-left: 100px;
-}
-
 
 
 
