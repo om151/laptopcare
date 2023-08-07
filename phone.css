@@ -304,6 +304,18 @@ nav{
     padding-right: 40px;
 }
 
+    .first-ele p::before{
+    top: 2.5rem;
+    left: 4.2rem;
+    font-size: 15px;
+}
+
+.first-ele p::after{
+    bottom:22.5rem ;
+    right:4rem ;
+    font-size: 15px;
+}
+
 .home-contact{
     padding-left: 22px;
 }
