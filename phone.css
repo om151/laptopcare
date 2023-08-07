@@ -579,6 +579,17 @@ margin: 0px 3px;
   font-size: 15px;
     padding:  30px 15px;
 }
+     .first-ele p::before{
+    top: 2.5rem;
+    left: 3.5rem;
+    font-size: 25px;
+}
+
+.first-ele p::after{
+    bottom:27.5rem ;
+    right:9rem ;
+    font-size: 25px;
+}
 
 .second-ele img{
     height: 55px;
